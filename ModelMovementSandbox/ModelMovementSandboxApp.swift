@@ -18,6 +18,7 @@ struct ModelMovementSandboxApp: App {
                 .environment(appModel)
         }
         .windowStyle(.volumetric)
+        .defaultSize(width: 2000, height: 7000, depth: 1500)
 
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
             ImmersiveView()
